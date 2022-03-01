@@ -1,0 +1,50 @@
+/* Commun à toutes les pages */
+/* -------------------------- */
+/* -------------------------- */
+
+/* Navigation & Footer */
+@media screen and (max-width: 1210px) {
+    /* navigation */
+    #nav ul {
+        width: 60%;
+    }
+    /* footer */
+    .footer-content {
+        width: auto;
+    }
+    .footer-links a {
+        margin: 0 15px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* navigation */
+    #nav {
+        height:auto;
+    }
+    .nav-content  {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo-titre {
+        margin: 0 auto;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(66, 66, 66, 0.301);
+    }
+    .nav-content ul {
+        display: block;
+    }
+    .nav-content li {
+        display: block;
+        margin: 20px 0;
+    }
+    /* footer */
+    .footer-links  {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .footer-links a {
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,23 @@
+/* COLORS HEX */
+colors-hex {
+    --bleu-gris: #628395ff;
+    --mi-gris: #96897bff;
+    --jaune-clair: #dfd5a5ff;
+    --jaune-orange: #dbad6aff;
+    --camel: #cf995fff;
+}
+
+/* Container */
+#container-shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container-shop h1 {
+    display: flex;
+    align-items: center;
+}
+/* img sablier */
+.sablier {
+    width: 70px;
+}

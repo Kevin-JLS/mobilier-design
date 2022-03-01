@@ -1,0 +1,104 @@
+/* COLORS HEX */
+colors-hex {
+    --bleu-gris: #628395ff;
+    --mi-gris: #96897bff;
+    --jaune-clair: #dfd5a5ff;
+    --jaune-orange: #dbad6aff;
+    --camel: #cf995fff;
+}
+
+/* Centrer le formulaire */
+#container-formulaire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Titre h1 */
+.section-contact h1 {
+    text-align: center;
+    font-family: 'Baloo 2', sans-serif;
+    padding: 50px 0;
+    font-size: 40px;
+}
+.section-contact h1 span {
+    color: #cf995fff;
+}
+/* Titre h2 */
+.section-contact h2 {
+    text-align: center;
+    background: #628395ff;
+    color: white;
+    font-family: 'Baloo 2', sans-serif;
+    border-radius: 2px;
+    font-size: 30px;
+}
+
+/* Formulaire de contact */
+form {
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.062);
+    margin-bottom: 50px;
+}
+form img {
+    width: 730px;
+    overflow: hidden;
+}
+.form-content {
+    padding: 50px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-form {
+    display: block;
+    width: 100%;
+    border: none; 
+    border-bottom: 1px solid #cf995fff;
+    padding: 10px 0;
+    font-size: 16px;
+    outline: none;
+    color: #628395ff;
+    margin-top: 10px;
+}
+.section-contact label {
+    margin-bottom: 40px;
+    display: block;
+    width:100%;
+    font-weight: bold;
+    padding-left: 30px;
+    border-left: 8px solid #cf995fff;
+}
+
+.label-message {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+}
+textarea {
+    margin-top: 30px;
+    display: block;
+    width: 100%;
+    resize: none;
+    font-family: 'Dancing script', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+} 
+/* bouton de soumission du formulaire */
+.btn-formulaire-submit {
+    width: 100%;
+    margin: 0 auto 50px;
+    cursor: pointer;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background: #cf995f;
+    border:none;
+    font-size: 20px;
+    color:white;
+    transition: all 0.3s ease-in-out;
+}
+.btn-formulaire-submit:hover {
+    background: none;
+    border: 1px solid #cf995fff;
+    color: #cf995fff;
+}
